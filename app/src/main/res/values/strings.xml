@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">data_binding</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tool_bar_title">Currency Exchange Rates</string>
+</resources>
