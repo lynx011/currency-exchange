@@ -1,7 +1,5 @@
-package com.example.data_binding.utils
-
-import com.example.data_binding.model.Article
-
-interface ItemClickListener {
-    fun onClicked(article: Article)
-}
+//package com.example.data_binding.utils
+//
+//interface ItemClickListener {
+//    fun onClicked(article: Article)
+//}

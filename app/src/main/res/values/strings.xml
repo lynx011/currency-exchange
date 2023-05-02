@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">data_binding</string>
+    <string name="app_name">Currency Exchange</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tool_bar_title">Currency Exchange Rates</string>
+    <string name="slash">/</string>
+    <string name="toolbar_title">Currency Exchange Rates</string>
+    <string name="appbar_title">Currency Converter</string>
+    <string name="switch_currencies">Switch Currencies</string>
+    <string name="search_currency">Search Currency</string>
 </resources>

@@ -3,15 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/data_binding/app/src/main/res/drawable/arrow_down.xml" value="0.151" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/arrow_right.xml" value="0.1395" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/autorenew.xml" value="0.1" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/clear.xml" value="0.151" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/close.xml" value="0.1395" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/currency_exchange.xml" value="0.151" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/drop_down.xml" value="0.1395" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/repeat.xml" value="0.1" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/search.xml" value="0.151" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/swap_horiz.xml" value="0.151" />
+        <entry key="..\:/data_binding/app/src/main/res/drawable/toolbar_background.xml" value="0.1395" />
         <entry key="..\:/data_binding/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/data_binding/app/src/main/res/layout/activity_main2.xml" value="0.2298728813559322" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/country_item.xml" value="0.19895833333333332" />
         <entry key="..\:/data_binding/app/src/main/res/layout/currency_item.xml" value="0.19895833333333332" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/fragment_amount.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/fragment_converter.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/layout/fragment_currencies.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/layout/fragment_news_details.xml" value="0.1" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/fragment_quantity.xml" value="0.2" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/fragment_search_code.xml" value="0.2" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/load_more.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/layout/news_item.xml" value="0.1641025641025641" />
+        <entry key="..\:/data_binding/app/src/main/res/layout/num_item.xml" value="0.2" />
         <entry key="..\:/data_binding/app/src/main/res/menu/bottom_nav.xml" value="0.2" />
+        <entry key="..\:/data_binding/app/src/main/res/xml/network_security_config.xml" value="0.2" />
       </map>
     </option>
   </component>

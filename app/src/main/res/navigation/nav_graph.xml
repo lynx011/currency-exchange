@@ -3,21 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
-
-    <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.data_binding.fragments.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/newsDetailsFragment"
-        android:name="com.example.data_binding.fragments.NewsDetailsFragment"
-        android:label="fragment_newsDetails"
-        tools:layout="@layout/fragment_news_details" />
+    app:startDestination="@id/currenciesFragment">
     <fragment
         android:id="@+id/currenciesFragment"
         android:name="com.example.data_binding.fragments.CurrenciesFragment"
         android:label="fragment_currencies"
         tools:layout="@layout/fragment_currencies" />
+    <fragment
+        android:id="@+id/converterFragment"
+        android:name="com.example.data_binding.fragments.ConverterFragment"
+        android:label="fragment_converter"
+        tools:layout="@layout/fragment_converter" >
+        <action
+            android:id="@+id/action_converterFragment_to_quantityFragment"
+            app:destination="@id/quantityFragment"
+            app:enterAnim="@anim/slide_in_bottom"
+            app:exitAnim="@anim/slide_out_top"
+            app:popEnterAnim="@anim/slide_in_top"
+            app:popExitAnim="@anim/slide_out_bottom" />
+        <action
+            android:id="@+id/action_converterFragment_to_searchCodeFragment"
+            app:destination="@id/searchCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchCodeFragment"
+        android:name="com.example.data_binding.fragments.SearchCodeFragment"
+        android:label="fragment_search_code"
+        tools:layout="@layout/fragment_search_code" >
+        <action
+            android:id="@+id/action_searchCodeFragment_to_converterFragment"
+            app:destination="@id/converterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quantityFragment"
+        android:name="com.example.data_binding.fragments.QuantityFragment"
+        android:label="fragment_quantity"
+        tools:layout="@layout/fragment_quantity" >
+    </fragment>
 </navigation>

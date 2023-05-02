@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.QuantityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DCDEE6"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="14dp"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+                <TextView
+                    android:id="@+id/amountText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/grey1"
+                    android:layout_marginStart="10dp"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.04"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:id="@+id/reduceNum"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/delete"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="14dp"
+                android:layout_gravity="center"
+                tools:listitem="@layout/num_item"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dropdownBtn"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:icon="@drawable/drop_down"
+                android:backgroundTint="#FFB52E"
+                app:iconTint="@color/white"
+                android:gravity="center"
+                app:cornerRadius="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="180dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

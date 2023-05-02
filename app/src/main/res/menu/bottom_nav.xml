@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <item
-        android:id="@+id/homeFragment"
-        android:icon="@drawable/newspaper"
-        android:title="NFT News"
+        android:id="@+id/currenciesFragment"
+        android:icon="@drawable/stock_market"
+        android:title="Exchange Rates"
         tools:ignore="HardcodedText" />
     <item
-        android:id="@+id/currenciesFragment"
-        android:icon="@drawable/currency_exchange"
-        android:title="Currency Exchange"
+        android:id="@+id/converterFragment"
+        android:icon="@drawable/transfer"
+        android:title="Converter"
         tools:ignore="HardcodedText" />
 
 </menu>

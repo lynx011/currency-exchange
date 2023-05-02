@@ -23,11 +23,22 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         app:labelVisibilityMode="selected"
+        android:background="@color/white"
+        android:elevation="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:itemTextAppearanceActive="@color/lavender4d"
+        app:itemIconTint="@color/lavender4d"
+        app:itemTextColor="@color/lavender4d"
+        app:itemRippleColor="@color/lavender9a"
+        android:textSize="18sp"
+        app:itemIconSize="28dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_nav"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
+
